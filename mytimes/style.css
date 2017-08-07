@@ -1,0 +1,92 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header img{
+  padding: 0 10px;
+  height: 50px;
+}
+header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background: black;
+  display: inline;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top:0;
+}
+nav{
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  top:0;
+  bottom:0;
+}
+nav li{
+  top:40px;
+  display: inline;
+  padding: 0 10px;
+}
+nav a{
+    color: seashell;
+}
+#mission{
+  background:url(img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-left: 20px;
+}
+.mc{
+  position: relative;
+  top: 300px;
+  text-align: center;
+  background: black;
+}
+#ftea{
+   width: 1000px;
+   text-align: center;
+   margin-left: 130px;
+}
+.aa img{
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+#box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#local{
+  background:url(img-locations-background.jpg);
+  height: 500px;
+  margin:30px 40px;
+  text-align: center;
+
+}
+#local h2{
+  margin-bottom: 15px;
+
+}
+.pl{
+  width: 300px;
+  height: 250px;
+  background:black;
+}
+#p{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 50px;
+}
+#last{
+  height: 200px;
+  text-align: center;
+}
+#h5{
+  margin-left:20px;
+}
